@@ -1,0 +1,44 @@
+table {
+    border-color: green;
+    border-radius: 5px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+p {
+    background: red;
+    max-width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.messi td {
+    text-align: center;
+    color: white;
+    background: black;
+
+}
+.ronaldo td {
+    text-align: center;
+    color: white;
+    background: blue;
+}
+
+.ronaldo th {
+    background: yellowgreen;
+}
+
+ 
+ table th {
+    background: yellowgreen;
+    font-size: 20px;
+    font-family: tahoma;
+}
